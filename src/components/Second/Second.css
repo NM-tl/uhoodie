@@ -1,0 +1,66 @@
+.div1 { grid-area: 1 / 1 / 7 / 2; }
+.div2 { grid-area: 1 / 2 / 7 / 3; }
+.div3 { grid-area: 1 / 3 / 7 / 4; }
+.div4 { grid-area: 1 / 4 / 7 / 5; }
+.div5 { grid-area: 1 / 5 / 7 / 6; }
+.div6 { grid-area: 1 / 6 / 7 / 7; }
+
+.hoodie-from { 
+    grid-area: 2 / 2 / 6 / 4; 
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hoodie-from form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hoodie-from__input {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding: 0.2em;
+}
+
+.hoodie-from__btn {
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background: transparent;
+    color: whitesmoke;
+    padding: 0.6em 2.5em;
+}
+
+.div8 { 
+    grid-area: 2 / 4 / 6 / 6; 
+    background: green;
+}
+
+.div9 { 
+    grid-area: 6 / 2 / 7 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/* Animation */
+
+.vertical-text { 
+    grid-area: 1 / 1 / 7 / 2; 
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-text  h2 {
+    margin: 0;
+    writing-mode: tb;
+    font-size: 8.125em;
+}
